@@ -1,0 +1,74 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Estilos para el título de la lista */
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Estilos para la lista de usuarios */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para cada elemento de la lista */
+li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el último elemento de la lista */
+li:last-child {
+    margin-bottom: 0;
+}
+
+/* Estilos para el icono de flecha */
+li::before {
+    content: "▸";
+    color: #007bff;
+    margin-right: 10px;
+}
+
+/* Estilos para los elementos de texto en la lista */
+li span {
+    font-weight: bold;
+}
+
+/* Estilos para el nombre de usuario en la lista */
+li span:first-child {
+    color: #007bff;
+}
+
+/* Estilos para la contraseña en la lista */
+li span:last-child {
+    color: #28a745;
+}
+
+/* stylesVerUsuarios.css */
+
+/* Estilo para el botón de regresar */
+.regresar-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Estilo al pasar el cursor sobre el botón de regresar */
+.regresar-btn:hover {
+    background-color: #0056b3;
+}
